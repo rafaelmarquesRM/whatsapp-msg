@@ -37,13 +37,20 @@ form h3 {
 }
 
 form input[type=tel] {
+  border: none;
   border-radius: 1rem;
   padding: 1rem;
   width: 100%;
   text-align: center;
+  transition: all 0.3s;
+}
+
+form input[type=tel]:hover {
+  transform: scale(1.1);
 }
 
 form input[type=button] {
+  border: none;
   padding: 1rem;
   border-radius: 1rem;
   margin-top: 1rem;
